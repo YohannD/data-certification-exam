@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\n\nAs it can be seen on partial reg plots and in the model summary (coef = ~2252), the median age variable seems\nto have a significant positive effect on the number of crime incidents.\n\n",
+    "T_STAT": "\n\nThe t-stat of the median age regressor is 1.820. The formula is the following:\n\n(population mean - sample mean) / (std deviation / (nb of samples)^-1)\n\n",
+    "P_VALUE": "\n\nThe p-value is a measurement of how likely the median age coefficient is measured through our model by chance.\n\nIn other words, there is a 12.8% chance that the median age variable has no effect \non the dependent variable (nb of incidents) and that results are produced by chance.\n\nThis p-value is not significant at a 90% (alpha = 0.1) or 95% (alpha = 0.05) confidence level\n\n",
+    "INCREASE": "\n\nWe can deduce from the summary that an increase of 1% of the share of families with a married couple lead to a \nreduction of 2115 incidents on average, 3165 at max, 1066 at min. (2 std deviations). These conclusions are \nstatistically significant and exclude outliers.\n\n\n",
+    "LIMITATIONS": "\n\nThe most likely reason is multicollinearity. As you can see above, 4 features have a vif value > 5, which indicates\na strong collinearity with other features. In other words, these features explain the 'same variance'.\n\nIf you think about it, it makes sense: if median age increases, then the % of married couple will likely increase also. \n\n"
+}
